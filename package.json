@@ -2,7 +2,7 @@
     "name": "mp-list",
     "version": "1.0.0",
     "description": "小程序列表组件",
-    "main": "index.js",
+    "main": "mixins/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },

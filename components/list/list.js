@@ -1,4 +1,4 @@
-const pageListBehavior = require('../../mixins/list/index.js');
+const { pageListBehavior } = require('../../mixins/index.js');
 
 Component({
     options: {
