@@ -1,0 +1,22 @@
+<!-- 文章列表 -->
+<block wx:if="{{lists && lists.length > 0}}">
+    <listitem wx:for="{{lists}}" wx:key="index" wx:if="{{!item.isDel}}" data="{{item}}" index="{{index}}" data-idx="{{index}}" bindtap="onItemTap" bind:refresh="onRefresh" bind:refeshData="refeshData" bind:delete="onItemDelete" />
+</block>
+<block wx:else>
+    <view wx:if="{{!showLoading}}">
+        <slot name="default" />
+    </view>
+</block>
+<!-- 显示申请已经到底了 -->
+<block wx:if="{{showReachBottom && total > 0}}">
+    <view class="tips-bottom">已经到底了</view>
+</block>
+<block wx:else>
+    <!-- 上滑显示加载中 -->
+    <block wx:if="{{showLoading}}">
+        <view class="tips-bottom">
+            <view class="icon-loading" />
+            <view class="loading-more">正在加载...</view>
+        </view>
+    </block>
+</block>

@@ -1,0 +1,23 @@
+{
+  "name": "mp-list",
+  "version": "1.0.0",
+  "description": "小程序列表组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cc2victoria/mp-list.git"
+  },
+  "keywords": [
+    "list",
+    "mp"
+  ],
+  "author": "Yanjiao.Lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cc2victoria/mp-list/issues"
+  },
+  "homepage": "https://github.com/cc2victoria/mp-list#readme"
+}

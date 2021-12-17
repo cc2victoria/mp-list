@@ -1,0 +1,14 @@
+/* loading more */
+.tips-bottom {
+    margin-top: 20rpx;
+    padding: 10rpx;
+    text-align: center;
+    font-size: 26rpx;
+    color: #999;
+  }
+  
+  .loading-more {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
