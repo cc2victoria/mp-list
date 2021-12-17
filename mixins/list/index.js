@@ -3,7 +3,7 @@
  * @Author: yanjiao.lu
  * @Date: 2021-12-17 11:07:11
  * @Last Modified by: yanjiao.lu@zhenai.com
- * @Last Modified time: 2021-12-17 11:07:11
+ * @Last Modified time: 2021-12-17 11:43:11
  */
 
 /**
@@ -14,7 +14,7 @@
  * @param Function detailParams 查询详情参数
  * @return Behavior
  */
-export const pageListBehavior = function (
+const pageListBehavior = function (
     size = 5,
     params = {},
     getListFunc = null,
@@ -247,3 +247,5 @@ export const pageListBehavior = function (
         },
     });
 };
+
+module.exports = pageListBehavior;
